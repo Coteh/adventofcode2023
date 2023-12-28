@@ -1,0 +1,15 @@
+name: Test AoC 2023
+on: [push]
+jobs:
+  Test-AoC-2022:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Checking out ${{ github.ref }} from ${{ github.repository }}."
+      - name: Check out repository code
+        uses: actions/checkout@v3
+      - name: Install Nim
+        uses: iffy/install-nim@v5
+        with:
+          version: 2.0.2
+      - name: Run test
+        run: ./test.sh
