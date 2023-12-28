@@ -1,7 +1,7 @@
 name: Test AoC 2023
 on: [push]
 jobs:
-  Test-AoC-2022:
+  Test-AoC-2023:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Checking out ${{ github.ref }} from ${{ github.repository }}."
