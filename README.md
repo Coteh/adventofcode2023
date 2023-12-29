@@ -37,7 +37,7 @@ Then once it's compiled, can simply run using:
 |  7   |   ✅   |        |
 |  8   |   ✅   |        |
 |  9   |   ✅   |   ✅   |
-|  10  |        |        |
+|  10  |   ✅   |        |
 |  11  |        |        |
 |  12  |        |        |
 |  13  |        |        |
