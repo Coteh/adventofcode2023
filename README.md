@@ -1,5 +1,7 @@
 # adventofcode2023
 
+[![Test AoC 2023](https://github.com/Coteh/adventofcode2023/actions/workflows/run_aoc_test.yml/badge.svg)](https://github.com/Coteh/adventofcode2023/actions/workflows/run_aoc_test.yml)
+
 Learning Nim this year.
 
 ## Instructions
